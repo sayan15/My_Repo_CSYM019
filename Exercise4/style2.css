@@ -1,0 +1,46 @@
+.major{
+    background-color:black;
+    
+    
+}
+.top{
+    background-color: blue;
+    overflow:auto;
+}
+.top h1{
+    color: white;
+}
+.first{
+    background-color:yellow;
+    width: 15%;
+
+  
+  overflow:auto;
+    
+}
+.two{
+    background-color:darkblue;
+    width: 70%;
+ 
+
+  overflow:auto;
+    
+}
+.three{
+    background-color:lightgreen;
+    width: 15%;
+  
+  overflow:auto;
+    
+}
+.lower{
+    background-color:darkgreen;
+    overflow:auto;
+}
+
+.vcontainer {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 40vw;
+}

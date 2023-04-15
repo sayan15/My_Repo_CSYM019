@@ -1,0 +1,22 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema",
+    "title": "Counties",
+    "description": "Counties List",
+    "type":"object",
+    "properties": {
+        "counties":{
+            "type":"array",
+                "items": {
+                    "countyID": {"type":"string"},
+                     "e": {"type":"string"},
+                     "n": {"type":"string"},
+                     "name": {"type":"string"},
+                     "gridId": {"type":"string"},
+                    "wgs84Lat": {"type":"string"},
+                    "wgs84Long": {"type":"string"}
+                }
+            }
+
+        
+    }
+}

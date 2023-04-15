@@ -1,0 +1,29 @@
+{
+    "$schema":"http://json-schema.org/draft-04/schema",
+    "title": "Sigting Report",
+    "description": "Report of rare Animal",
+    "type":"object",
+    "properties": {
+        "sightingdata":{
+            "type":"array",
+                "items": {
+                    "type":"object",
+                    "properties": {
+                        "id":{"type":"integer"},
+                        "animal":{"type":"string"},
+                        "number":{"type":"integer"},
+                        "location":{"type":"string"},
+                        "date":{"type":"string"},
+                        "time":{"type":"string"},
+                        "observer":{"type":"object",
+                                    "properties": {
+                                        "name":{"type":"string"},
+                                        "email":{"type":"string"}
+                                    }
+                                    },
+                        "observation":{"type":"string"}
+                    }
+                }
+        }
+    }   
+}
